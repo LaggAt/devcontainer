@@ -1,0 +1,165 @@
+repo_name: LaggAt/devcontainer
+report_id: 04d646d4db7f635056d47913268457d9
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:51:57+00:00'
+requested_by: dependabot[bot]
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LaggAt/devcontainer
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LaggAt/devcontainer
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/devcontainer
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/.github/workflows/build.yaml
+  detection_source: ".github/workflows/build.yaml"
+  last_updated_by: Joakim Sørensen
+  last_updated_on: 2020-11-14 12:42:50.000000000 Z
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/rootfs/elastic-ek/usr/local/kibana/config/kibana.yml
+  detection_source: rootfs/elastic-ek/usr/local/kibana/config/kibana.yml
+  last_updated_by: ludeeus
+  last_updated_on: 2020-04-04 12:08:46.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ludeeus
+  last_updated_on: 2020-12-30 14:49:21.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  version: 3.12.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Joakim Sørensen
+  last_updated_on: 2020-12-25 17:52:07.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/rootfs/elastic-ek/usr/local/elasticsearch/config/elasticsearch.yml
+  detection_source: rootfs/elastic-ek/usr/local/elasticsearch/config/elasticsearch.yml
+  last_updated_by: ludeeus
+  last_updated_on: 2020-04-04 12:08:46.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LaggAt/devcontainer
+  detection_source: Repo Metadata
+- name: alpinepkgs
+  description: Python package that give you information about packages from pkgs.alpinelinux.org
+  package_url: https://pypi.org/project/alpinepkgs
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ludeeus
+  last_updated_on: 2020-12-30 14:49:21.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.25.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ludeeus
+  last_updated_on: 2020-12-30 14:49:21.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: ruamel.yaml
+  description: Ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation
+    of comments
+  package_url: https://pypi.org/project/ruamel.yaml
+  version: 0.16.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19918/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/LaggAt/devcontainer/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ludeeus
+  last_updated_on: 2020-12-30 14:49:21.000000000 Z
